@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--slider-item start-->
+    <div class="slider-item">
+
+        <!--slidersinglebox start-->
+        <div class="slidersinglebox">
+            <div class="slidermenu">
+                <div><img src="https://picsum.photos/id/110/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/111/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/112/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/113/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/114/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/115/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/116/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/117/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/118/650/400" title="Coffee 1" /></div>
+                <div><img src="https://picsum.photos/id/119/650/400" title="Coffee 1" /></div>
+            </div>
+        </div>
+        <!--slidersinglebox start-->
+
+
+        <!--slidersinglebox start-->
+        <div class="sliderpart2">
+            <div class="slider2">
+                <div><img src="https://picsum.photos/id/125/650/400" /></div>
+                <div><img src="https://picsum.photos/id/126/650/400" /></div>
+                <div><img src="https://picsum.photos/id/127/650/400" /></div>
+                <div><img src="https://picsum.photos/id/128/650/400" /></div>
+                <div><img src="https://picsum.photos/id/129/650/400" /></div>
+                <div><img src="https://picsum.photos/id/130/650/400" /></div>
+                <div><img src="https://picsum.photos/id/131/650/400" /></div>
+                <div><img src="https://picsum.photos/id/132/650/400" /></div>
+                <div><img src="https://picsum.photos/id/133/650/400" /></div>
+            </div>
+        </div>
+        <!--slidersinglebox start-->
+    </div>
+    <!--slider-item end-->
+
+
+    <div class="tickermain">
+        <ul class="ticker1">
+            <li><a href="#"> ঘূর্ণিঝড় ‘ফিনজাল’ তামিলনাডু উপকূলে, দেশে শীত বাড়বে</a></li>
+            <li><a href="#"> ডিআরইউর নতুন সভাপতি সালেহ আকন, সাধারণ সম্পাদক সোহেল</a></li>
+            <li><a href="#"> রামপুরায় ইডেন কলেজ শিক্ষার্থীর লাশ উদ্ধার</a></li>
+            <li><a href="#"> মিরসরাইয়ে যুবদল নেতার বাড়িতে হামলা, জামায়াতের বিরুদ্ধে অভিযোগ</a></li>
+            <li><a href="#"> টেকনাফে কিশোরকে অস্ত্র মামলায় ফাঁসানোর অভিযোগ, ঢাকা বিশ্ববিদ্যালয়ে মানববন্ধন</a></li>
+            <li><a href="#"> সাংবাদিক মুন্নী সাহা আটক</a></li>
+            <li><a href="#"> এক সপ্তাহের মধ্যে পুরান ঢাকায় ৩০০ ভরি সোনা ছিনতাই</a></li>
+            <li><a href="#"> শেরপুরে পীর ও তাঁর অনুসারীদের গ্রেপ্তার ও শাস্তির দাবিতে সংবাদ সম্মেলন</a></li>
+            <li><a href="#"> ইসলামী বিশ্ববিদ্যালয় সংস্কারে ছাত্রশিবিরের ১১০ প্রস্তাব</a></li>
+          </ul>
+    </div>
+
+    <script>
+          $(function(){
+            $('.slidermenu').bxSlider({
+            mode: 'vertical',
+            captions: true,
+            auto:true,
+            });
+
+
+            $('.slider2').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+            auto:true,
+        });
+
+            $('.ticker1').bxSlider({
+            minSlides: 4,
+            maxSlides: 4,
+            slideWidth: 'auto',
+            slideMargin: 100,
+            ticker: true,
+            speed: 30000,
+            tickerHover: true,
+        });
+
+        });
+
+    </script>
+    
+</body>
+</html>

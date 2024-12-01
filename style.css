@@ -1,0 +1,73 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-image: url(img_lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-item {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slidersinglebox {
+    width: 45%;
+}
+
+.sliderpart2 {
+    width: 45%;
+}
+
+.tickermain {
+    bottom: 0;
+}
+
+.tickermain .bx-wrapper {
+    background-color: black;
+    margin-bottom: 0;
+}
+
+
+.ticker1 li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.ticker1 li {
+    position: relative;
+}
+
+.ticker1 li:before {
+    position: absolute;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: rgb(42, 9, 231);
+    left: -30px;
+    bottom: 5px;
+    border-radius: 50%;
+}
+
+.ticker1 li {
+    position: relative;
+}
+
+.tickermain {
+    position: absolute;
+    bottom: 0;
+}
+
+
